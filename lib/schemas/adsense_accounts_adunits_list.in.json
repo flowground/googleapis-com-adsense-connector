@@ -1,0 +1,30 @@
+{
+    "type": "object",
+    "properties": {
+        "accountId": {
+            "required": true,
+            "type": "string"
+        },
+        "adClientId": {
+            "required": true,
+            "type": "string"
+        },
+        "includeInactive": {
+            "type": "boolean"
+        },
+        "maxResults": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10000
+        },
+        "pageToken": {
+            "type": "string"
+        },
+        "quotaUser": {
+            "type": "string"
+        },
+        "userIp": {
+            "type": "string"
+        }
+    }
+}

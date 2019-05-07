@@ -1,0 +1,32 @@
+{
+    "type": "object",
+    "properties": {
+        "accountId": {
+            "required": true,
+            "type": "string"
+        },
+        "locale": {
+            "type": "string"
+        },
+        "maxResults": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 50000
+        },
+        "savedReportId": {
+            "required": true,
+            "type": "string"
+        },
+        "startIndex": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 5000
+        },
+        "quotaUser": {
+            "type": "string"
+        },
+        "userIp": {
+            "type": "string"
+        }
+    }
+}
