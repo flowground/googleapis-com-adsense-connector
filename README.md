@@ -5,7 +5,7 @@
 A generated **flow**ground connector for the AdSense Management API (version v1.4).
 
 Generated from: https://api.apis.guru/v2/specs/googleapis.com/adsense/v1.4/swagger.json<br/>
-Generated at: 2019-05-07T17:41:07+03:00
+Generated at: 2019-05-23T12:12:55+03:00
 
 ## API Description
 
